@@ -1,6 +1,6 @@
 <template>
     <div>
-        <router-link to="/films">Films</router-link>
+        <router-link class ="link" to="/films">See Films</router-link>
         <div class="header">
             <Header title="Starships" :style="{color: '#F3F3EF'}"/>
             <img class="img2" src="../assets/icons/spaceship3.svg"/>

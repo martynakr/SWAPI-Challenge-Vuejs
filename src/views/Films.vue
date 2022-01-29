@@ -1,6 +1,6 @@
 <template>
     <div class ="films">
-        <router-link to="/starships">Starships</router-link>
+        <router-link class ="link" to="/starships">See Starships</router-link>
         <div class="header">
           <Header title="Films" :style="{color: '#242424'}"/>
           <img class="img" src="../assets/icons/yoda.svg"/>

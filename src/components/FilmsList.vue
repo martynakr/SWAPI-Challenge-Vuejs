@@ -1,6 +1,6 @@
 <template>
     <div class="list">
-        <Card buttonText="See more info" v-for="item in items" :key="item.episode_id" :item="item" :id="item.url.split('/')[item.url.split('/').length -2]" name="Film" bgColor='#69573C' color="#fff"/>
+        <Card buttonText="See more info" v-for="item in items" :key="item.episode_id" :item="item" :id="item.url.split('/')[item.url.split('/').length -2]" name="Film" bgColor='#69573C' color="#fff" hedColor="#242424" label="Release date"/>
     </div>
 </template>
 
