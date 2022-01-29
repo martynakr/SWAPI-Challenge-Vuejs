@@ -1,0 +1,18 @@
+.cardContainer {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn {
+	padding: 0.5rem 0.75rem;
+	margin: 0.8rem;
+	margin-bottom: 1.6rem;
+	font-family: "Inter", sans-serif;
+}
+
+.title {
+	margin-top: 10px;
+	color: rgb(36, 36, 36);
+}
