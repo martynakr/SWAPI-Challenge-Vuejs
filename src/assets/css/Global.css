@@ -1,18 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500&family=Orbitron:wght@400;700;800&display=swap");
+
 .cardContainer {
 	background-color: white;
 	padding: 2rem;
 	border-radius: 0.5rem;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .btn {
-	padding: 0.5rem 0.75rem;
+	padding: 1rem 1.2rem;
 	margin: 0.8rem;
 	margin-bottom: 1.6rem;
 	font-family: "Inter", sans-serif;
+	border: none;
+	border-radius: 0.5rem;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	font-weight: bold;
 }
 
 .title {
 	margin-top: 10px;
 	color: rgb(36, 36, 36);
+}
+
+h1 {
+	font-family: "Orbitron", sans-serif;
+	font-size: 60px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+	margin-bottom: 60px;
 }

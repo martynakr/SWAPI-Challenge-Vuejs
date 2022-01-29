@@ -3,7 +3,7 @@
      <h2>{{item?.title ?? item.name}}</h2>
      <p>{{item?.release_date ?? item.length}}</p>
      <router-link :to="{name:name, params:{id:id}}">
-        <button class="btn">{{buttonText}}</button> 
+        <button :style="{backgroundColor:bgColor, color:color}" class="btn">{{buttonText}}</button> 
      </router-link>
    </div>
 </template>
@@ -18,13 +18,9 @@ export default {
       bgColor: String,
       item: Object,
       id: String,
-      name: String
+      name: String,
+      color:String
 
-  },
-  methods: {
-    onClick() {
-      console.log();
-    }
   },
 }
 </script>

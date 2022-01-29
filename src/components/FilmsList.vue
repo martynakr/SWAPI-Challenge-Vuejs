@@ -1,6 +1,6 @@
 <template>
-    <div class="filmsList">
-        <Card buttonText="See more info" v-for="item in items" :key="item.episode_id" :item="item" :id="item.url.split('/')[item.url.split('/').length -2]" name="Film"/>
+    <div class="list">
+        <Card buttonText="See more info" v-for="item in items" :key="item.episode_id" :item="item" :id="item.url.split('/')[item.url.split('/').length -2]" name="Film" bgColor='#69573C' color="#fff"/>
     </div>
 </template>
 
@@ -33,10 +33,5 @@ export default {
 </script>
 
 <style>
-    .filmsList {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 15px;
-        margin-bottom: 60px;
-    }
+    @import '../assets/css/Global.css';
 </style>

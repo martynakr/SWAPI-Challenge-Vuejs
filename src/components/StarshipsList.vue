@@ -1,6 +1,6 @@
 <template>
     <div class="spaceshipsList">
-        <Card buttonText="See more info" v-for="(item, i) in items" :key="i" :item="item" :id="item.url.split('/')[item.url.split('/').length -2]" name="Starship" :url="item.url"/>
+        <Card buttonText="See more info" v-for="(item, i) in items" :key="i" :item="item" :id="item.url.split('/')[item.url.split('/').length -2]" name="Starship" :url="item.url" bgColor="#F6B841"/>
     </div>
 </template>
 

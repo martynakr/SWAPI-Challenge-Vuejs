@@ -16,11 +16,7 @@ import StarshipsList from '../components/StarshipsList.vue';
 export default {
   components: { Header, StarshipsList },
   name: 'Films',
-  props: {
-  },
-  methods: {
-  },
-created() {
+  created() {
     document.body.style.backgroundColor = "#001A45";
   },
   
