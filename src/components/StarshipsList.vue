@@ -11,10 +11,6 @@ import ItemsService from '../services/ItemsService'
 export default {
   components: { Card },
   name: 'StartshipsList',
-  props: {
-  },
-  methods: {
-  },
 
   data(){
       return {
@@ -35,10 +31,5 @@ export default {
 </script>
 
 <style>
-    .spaceshipsList {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 15px;
-        margin-bottom: 60px;
-    }
+    @import '../assets/css/Global.css';
 </style>
